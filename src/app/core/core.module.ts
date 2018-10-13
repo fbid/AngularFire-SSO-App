@@ -8,6 +8,8 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 
+// Auth serivces
+import { AuthService } from './auth.service';
 
 // Core module for services used globally by the app
 @NgModule({
@@ -18,7 +20,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
     AngularFireStorageModule,
     AngularFireAuthModule
   ],
-  providers: [],
+  providers: [AuthService],
   declarations: []
 })
 export class CoreModule { }
