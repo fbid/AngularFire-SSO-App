@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+// App Modules
+import { CoreModule } from './core/core.module';
+
 @NgModule({
   declarations: [
     AppComponent
