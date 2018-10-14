@@ -10,6 +10,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 
 // Auth serivces
 import { AuthService } from './auth.service';
+import { AuthGuard } from './auth.guard';
 
 // Core module for services used globally by the app
 @NgModule({
@@ -20,7 +21,7 @@ import { AuthService } from './auth.service';
     AngularFireStorageModule,
     AngularFireAuthModule
   ],
-  providers: [AuthService],
+  providers: [AuthService, AuthGuard],
   declarations: []
 })
 export class CoreModule { }
