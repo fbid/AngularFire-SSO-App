@@ -10,6 +10,7 @@ import { CoreModule } from './core/core.module';
 import { UserProfileComponent } from './ui/user-profile/user-profile.component';
 import { HomepageComponent } from './ui/homepage/homepage.component';
 import { UserDashboardComponent } from './ui/user-dashboard/user-dashboard.component';
+import { HeaderComponent } from './ui/header/header.component';
 
 // Routing Modules
 import { AppRoutingModule } from './app-routing.module';
@@ -19,12 +20,13 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     UserProfileComponent,
     HomepageComponent,
-    UserDashboardComponent
+    UserDashboardComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
     CoreModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

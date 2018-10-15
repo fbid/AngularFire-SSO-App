@@ -1,0 +1,46 @@
+.user-icon {
+    padding-bottom:20px;
+    max-width:75%;
+    margin:0 auto;
+}
+
+.user-icon > svg {
+    border-radius: 50%;
+    border:1px solid #eee;
+}
+
+.user-icon img {
+    display: block;
+    max-width: 75%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.user-info {
+  text-align:center;
+}
+
+
+.user-info > p {
+    margin-bottom: 10px;
+    margin-top: 7px;
+}
+
+button.googleLogin-btn {
+  background: #fff;
+  color:#e42727;
+  border:1px solid #e42727;
+  cursor:pointer;
+  padding: 5px 10px;
+  border-radius:5px;
+  transition: color .5s ease, background .5s ease;
+}
+
+button.googleLogin-btn:hover {
+    background: #e42727;
+    color: #fff;
+}
+
+i.fa.fa-google {
+    margin-right: 4px;
+}
