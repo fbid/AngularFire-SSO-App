@@ -6,3 +6,7 @@ h1 {
   font-size: 3.5rem;
   padding-bottom: .5em;
 }
+
+button:focus {
+  outline:0;
+}
