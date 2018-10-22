@@ -5,6 +5,7 @@ A simple web application which implements Google Single Sign-On authentication.
 ### Setup
 
 Save your Firebase configuration object to: `src/environments/firebase.config.ts`
+
 Example:
 ```js
 export const firebase_config = {
