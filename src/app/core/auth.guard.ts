@@ -6,7 +6,6 @@ import { tap, map, take } from 'rxjs/operators';
 import { AngularFireAuth } from '@angular/fire/auth';
 import { AuthService } from './auth.service';
 
-// Protects our routes from unauthenticated users
 
 @Injectable({
   providedIn: 'root'
